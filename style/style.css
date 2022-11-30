@@ -5,8 +5,8 @@
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    height: 60%; /*Accordng to Content*/
+    font-size: 16px;
+    width: 80%; /* Add Buttons */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
@@ -15,15 +15,23 @@ input[type=text], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
   }
 
+
   p{
-    width: 100%;
+
+    width: 80%;
     height: auto;
 
+    position: absolute;
+
+    border: 1px solid #ccc;
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin: 2px;
-
-    padding: 4%;
+    
+    padding: 1%;
+    margin-left: 2.5%;
+    
+    
+    color:#777777;
 
     background: white;
   }
@@ -31,11 +39,12 @@ input[type=text], select, textarea {
 
   h1{
     color: maroon;
-    font-size: 72px;
+    font-size: 64px;
   }
 
   h3,h4{
     color: maroon;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
   }
 
   h4{
@@ -44,6 +53,7 @@ input[type=text], select, textarea {
   }
 
   button{
+    position: relative;
     background-color: maroon;
     color: antiquewhite;
     border-radius: 25%;
@@ -57,12 +67,23 @@ input[type=text], select, textarea {
     color: maroon;
 }
 
+
+.sp-bttn{ 
+  margin-top: 1.25%; 
+  left: 83%; 
+}
+
   
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
     background: linear-gradient(antiquewhite, pink, orange);
     padding: 5px;
+  }
+
+  .ans-container{
+  height: 110px;
+  position: relative;
   }
 
   .footer{
@@ -77,7 +98,7 @@ input[type=text], select, textarea {
     text-align: center;
   }
   img {
-    max-width: 100%;
+    width: 40%;
     height: auto;
     width: auto\9; /* ie8 */
 }
@@ -152,7 +173,28 @@ input[type=text], select, textarea {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
-@media only screen and (max-width : 600px) {
+
+@media only screen and (max-width : 720px) {
+
+  .sp-bttn{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+  }
+
+  p{
+    padding: 4%;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+  }
 
   h1{
     font-size:56px;

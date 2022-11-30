@@ -61,7 +61,11 @@ async function SubmitVars() {
 
 	p_res = getResponse(result["data"])
 
+	document.getElementById("answer").style.color = "black";
+
 	index_page.innerHTML = (p_res);
+
+	index_page.opacity = 1;
 }
 
 
