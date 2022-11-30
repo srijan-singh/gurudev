@@ -1,0 +1,61 @@
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    height: 60%; /*Accordng to Content*/
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+  }
+
+  p{
+    width: 100%;
+    height: auto;
+
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin: 2px;
+
+    padding: 4%;
+
+    background: white;
+  }
+  
+
+  h1{
+    color: maroon;
+  }
+
+  button{
+    background-color: maroon;
+    color: antiquewhite;
+    border-radius: 25%;
+    border-color: maroon;
+  }
+
+  button:disabled,
+  button[disabled]{
+    border: 1px solid #999999;
+    background-color: antiquewhite;
+    color: maroon;
+}
+
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background: linear-gradient(antiquewhite, pink, orange, skyblue);
+    padding: 20px;
+  }
+
+  #img-container{
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
