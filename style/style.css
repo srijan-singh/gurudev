@@ -18,10 +18,10 @@ input[type=text], select, textarea {
 
   p{
 
-    width: 80%;
+    width: 95%;
     height: auto;
 
-    position: absolute;
+    position: relative;
 
     border: 1px solid #ccc;
     border-radius: 4px; /* Rounded borders */
@@ -69,8 +69,9 @@ input[type=text], select, textarea {
 
 
 .sp-bttn{ 
-  margin-top: 1.25%; 
-  left: 83%; 
+  position: absolute;
+  margin-top: 20px;
+  left: 46.6%;
 }
 
   
@@ -82,7 +83,7 @@ input[type=text], select, textarea {
   }
 
   .ans-container{
-  height: 110px;
+  height: auto;
   position: relative;
   }
 
@@ -178,8 +179,10 @@ input[type=text], select, textarea {
 
   .sp-bttn{
     position: absolute;
-    top: 70%;
+    bottom: 1;
     left: 40%;
+    margin-left: 0%;
+    margin-top: 0px;
   }
 
   p{
