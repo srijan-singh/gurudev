@@ -43,7 +43,7 @@ async function SubmitVars() {
 
 	const keyword = getKeyword(document.getElementById("user_input").value);
 
-	const url = 'https://l0a45z.deta.dev/result/?user_input='+keyword
+	const url = 'https://guruji.deta.dev/result/?user_input='+keyword
 	const response = await fetch(url,{
 		method:"GET",
 		headers: {"Content-type": "application/json; charset=UTF-8"}
