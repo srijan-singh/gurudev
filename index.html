@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-            Guru Ji
+            गुरुदेव
         </title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,32 +13,53 @@
         <link rel="stylesheet" href="style/style.css">
         <link rel="icon" type="image/x-icon" href="src/favicon.ico">
 
+        </style>
+
         <script src="script/script.js"></script>
     </head>
     <body>
+        
         <div class="container">
             <div id="img-container">
                 <h1>
-                    Guru Ji
+                    गुरुदेव
                 </h1>
                 <img id="img" src ="src\adi-shankara.png"/>                
             </div> 
                 <center>
             <form>
-                    <input type="text" id="user_input">
-                    <button type="submit" id="submitButton" onclick='SubmitVars(); this.disabled = true;'>Ask Querry</button>
-                    <a href="index.html"><button id="resetButton" onclick='';>Reset</button></a>
+                    <input type="text" id="user_input" placeholder="Enter your querry here....">
+                    <button class="button-17" type="submit" id="submitButton" onclick='SubmitVars(); this.disabled = true;'>Search</button>
+                    <a href="index.html" style="text-decoration: none;"><button class="button-17" id="resetButton" onclick='';>Reset</button></a>                    
             </form>
+                </center>
             <br>
             <div class="ans-container">
-                <button onclick="Copy()">Copy</button>
-                </center>
-                <br>
                 <p id="answer">
                 </p>
-            </div>
-                
+                <br>
+                <center>
+                    <button class="button-17" onclick="Copy()">Copy</button>
+                </center>
+            </div>                
         </div>
+
+        <div class="footer">
+            <h3>
+                <center>
+                गुरुदेव<br>
+                <i>Gurudev</i> is an AI based application that can help you with your queries regarding any subjective matter.
+            </center>
+            </h3>
+            <h4>
+                    It uses GPT-2, an open-source Transformer-based text generator developed by OpenAI 
+                    that can generate text based on a given prompt. GPT-2 is trained on a large amount 
+                    of web text and can generate realistic-sounding sentences. It can also be used for 
+                    tasks such as summarization and question answering.
+                
+                </h4>      
+        </div>
+
     </body>
 </html>
 
